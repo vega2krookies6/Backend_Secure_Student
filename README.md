@@ -2,7 +2,6 @@
 
 > 대상: Student_JWT (Spring Boot 3.4.5 / Thymeleaf 세션 + REST JWT)
 > 목적: 강의용 취약점 데모 대상 식별·우선순위화 및 진행 관리
-> 점검일: 2026-09-29 · 갱신일: 2026-10-14
 > **이 브랜치(`feature/bruteforce-demo`) 기준 진행 상태**로 표기한다.
 
 각 항목은 **OWASP Top 10 2025** 카테고리와 매핑하며, 주제별로 **취약/안전 코드 + 실습 문서(md·docx)**로 다룬다.
@@ -111,4 +110,4 @@
 | 보안 설정 오류 (Actuator 노출) | #2 | `feature/security-misconfig-demo` | `09_Security_Misconfiguration` |  |
 | 무차별 대입 로그인 제한 | #7 | `feature/bruteforce-demo` | `10_Bruteforce_Login_Protection` |  |
 | 공급망/SBOM(개념) | #3 | — | `03_Supply_Chain_SBOM` | 문서 |
-| Mass Assignment (DTO 없이 Entity를 API의 입출력을 사용함) | #6 | (예정) | — |  |
+| Mass Assignment (DTO 없이 Entity를 API의 입출력을 사용함) | #6 | | — |  |
